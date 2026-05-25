@@ -96,14 +96,6 @@ export const Navbar = ({ currentPage, onNavigate }) => {
             <span className="text-xs text-brand-cyan font-semibold border border-brand-cyan/20 px-3 py-1.5 rounded-lg bg-brand-cyan/5">
               🇮🇳 Specially Built for India
             </span>
-            
-            <GlassButton 
-              variant="gradient" 
-              onClick={() => handleLinkClick('contact')} 
-              icon={LogIn}
-            >
-              Login
-            </GlassButton>
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -147,10 +139,6 @@ export const Navbar = ({ currentPage, onNavigate }) => {
                 <span className="text-center text-xs text-brand-cyan font-semibold border border-brand-cyan/25 py-2.5 rounded-xl bg-brand-cyan/5">
                   🇮🇳 Made for Indian Hoteliers & Lodges
                 </span>
-                
-                <GlassButton variant="gradient" className="w-full justify-center" onClick={() => handleLinkClick('contact')} icon={LogIn}>
-                  Login
-                </GlassButton>
               </div>
             </div>
           </motion.div>
